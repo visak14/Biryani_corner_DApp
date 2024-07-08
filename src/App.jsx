@@ -1,4 +1,5 @@
-import abi from "../../artifacts/contracts/Biryani.sol/Biryani.json";
+import biryaniContract from '../../artifacts/contracts/Biryani.sol/Biryani.json';
+
 import { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import Buy from "./components/Buy";
