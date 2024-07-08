@@ -7,9 +7,7 @@
     "dev": "vite",
     "build": "vite build && npm run compile",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "start": "vite",
-    "compile": "hardhat compile"
+    "preview": "vite preview"
   },
   "dependencies": {
     "ethers": "^5.0.0",
