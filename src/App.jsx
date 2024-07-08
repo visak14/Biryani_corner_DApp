@@ -1,5 +1,4 @@
-import biryaniContract from '../../artifacts/contracts/Biryani.sol/Biryani.json';
-
+import abi from "../../artifacts/contracts/Biryani.sol/Biryani.json";
 import { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import Buy from "./components/Buy";
@@ -30,7 +29,7 @@ function App() {
       })
 
 
-      window.ethereum.on("accountChanged", () => {
+      window.ethereum.on("aChanged", () => {
         window.location.reload();
       })
           const provider = new ethers.providers.Web3Provider(window.ethereum);
