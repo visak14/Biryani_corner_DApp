@@ -9,7 +9,7 @@ export default defineConfig({
       output: {
         // Ensure JSON files are treated as modules
         manualChunks: {
-          json: ['./src/artifacts/contracts/**/*.json'],
+          json: ['./artifacts/contracts/**/*.json'],
         },
       },
     },
