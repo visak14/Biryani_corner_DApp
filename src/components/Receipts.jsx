@@ -21,7 +21,7 @@ const Receipts = ({ state }) => {
 
   return (
     
-    <div className="flex justify-center w-full p-10 mt-4 bg-gray-100">
+    <div className="flex justify-center w-full p-2  bg-gray-100">
       <div className="w-full overflow-auto">
         <table className="min-w-full bg-white">
           <thead className="bg-gray-200 border-b-2 border-gray-800">

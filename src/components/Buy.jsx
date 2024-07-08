@@ -1,4 +1,3 @@
-import React from 'react';
 import { ethers } from 'ethers';
 const Buy = ({ state }) => {
     console.log(state);
@@ -25,7 +24,7 @@ const Buy = ({ state }) => {
     };
 
     return (
-        <div className="flex justify-center items-center mt-4 bg-gray-100 py-10">
+        <div className="flex justify-center items-center  bg-gray-100 py-4">
         <form
           onSubmit={buyBiryani}
           className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full"
